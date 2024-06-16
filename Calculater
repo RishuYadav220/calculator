@@ -1,0 +1,19 @@
+print("Rishu's Calculater")
+A = int(input("Enter the value of A: "))
+B = int(input("Enter the value of B: "))
+operation = input("Enter the operation: ")
+if(operation == "+"):
+    print("The value of ",A , "+", B , "B", "is", A+B)
+
+elif(operation == "-"):
+    print("The value of ",A , "-", B , "B", "is", A-B)
+
+elif(operation == "*"):
+    print("The value of ",A , "*", B , "B", "is", A*B)
+
+elif(operation == "/"):
+    print("The value of ",A , "/", B , "B", "is", A/B)
+
+print("Thanks for using Rishu's Calculater")
+print("Good bye")
+print("hello world")
